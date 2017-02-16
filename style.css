@@ -43,6 +43,21 @@ section li {
   box-sizing: border-box;
   text-align:center;
   list-style: none;
+  font-weight: bold;
+}
+
+/*
+  span .bg-box {
+  height:.5em;
+  width:: .5em;
+  border: 1px solid rgb(122, 181, 222);
+  background-color: rgb(122, 181, 222);
+}
+*/
+
+section li:hover{
+  background-color: rgb(122, 181, 222);
+  color: rgb(255,255,255);
 }
 
 section li:last-child {
@@ -78,5 +93,15 @@ main li.btm-lst{
 .btm-lst h5{
   text-align:right;
   padding-right: 1em;
+
+}
+
+.bg-box{
+  height:7px;
+  width:7px;
+  padding:3px 3px 3px 4px;
+  float:left;
+  background-color: black;
+  border: 1px solid red;
 
 }
