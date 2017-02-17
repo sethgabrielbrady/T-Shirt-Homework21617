@@ -1,9 +1,10 @@
 /*style sheet for T-shirt homework */
 
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
 body {
-  font-family: sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
 }
 main {
   width: auto;
@@ -46,15 +47,9 @@ section li {
   font-weight: bold;
 }
 
-/*
-  span .bg-box {
-  height:.5em;
-  width:: .5em;
-  border: 1px solid rgb(122, 181, 222);
-  background-color: rgb(122, 181, 222);
+section li:nth-child(3){
+  font-family: 'Roboto';
 }
-*/
-
 section li:hover{
   background-color: rgb(122, 181, 222);
   color: rgb(255,255,255);
@@ -77,7 +72,6 @@ main .btm-lst {
   float:left;
   display:inline;
   padding:0;
-
 }
 
 main li.btm-lst{
@@ -85,23 +79,36 @@ main li.btm-lst{
     list-style: none;
 }
 
-.btm-lst h4{
-  padding-left: 1em;
+.btm-lst p{
+  padding-left: .25em;
+  font-size:1.60em;
+  margin-top:1.15em;
+
 }
 
+/*.btm-lst ~ h4 {
+  text-align:right;
+  padding-right: 1em;
+}
+*/
 
 .btm-lst h5{
   text-align:right;
-  padding-right: 1em;
-
+  padding-right: .30em;
+  font-size:1.55em;
+  margin-top:1.10em;
 }
 
-.bg-box{
-  height:7px;
-  width:7px;
-  padding:3px 3px 3px 4px;
-  float:left;
-  background-color: black;
-  border: 1px solid red;
 
+
+ .square {
+  padding:.25em .75em .25em .75em;
+  border:2px solid rgb(122, 181, 222);
+  background-color: rgb(122, 181, 222);
+}
+
+ .square:hover{
+  padding:.25em .75em .25em .75em;
+  border:2px solid rgb(255, 255, 255);
+  background-color: rgb(122, 181, 222);
 }
