@@ -72,17 +72,17 @@ section ul{
   color: rgb(122, 181, 222);
 }
 
-.ls-primary li:nth-child(3){
+.ls-primary >.size-mn{
   font-family: 'Roboto';
   position:relative;
 }
 
-.ls-primary li:hover{
+.ls-primary >.fprim-ls:hover{
   background-color: rgb(122, 181, 222);
   color: rgb(255,255,255);
 }
 
-.ls-primary li:last-child {
+.ls-primary > .prim-ls:last-child {
   border-right: none;
 }
 
@@ -111,13 +111,15 @@ list-style: none;
 
 
 .drp-rec > .size{
+  font-size: 1em;
   border:none;
   margin:0;
   padding:1.25em;
-  width:auto;
+  width:100%;
   box-sizing: border-box;
   text-align:center;
   list-style: none;
+  background-color: rgb(255, 255, 255);
   border-top: 2px solid rgb(122, 181, 222);
   border-right: 2px solid rgb(122, 181, 222);
   border-left: 2px solid rgb(122, 181, 222);
@@ -130,7 +132,7 @@ list-style: none;
   opacity:0;
   top:-290px;
   left:-2px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   position:absolute;
   box-sizing: border-box;
   width:80px;
