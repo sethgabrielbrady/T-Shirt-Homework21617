@@ -126,17 +126,27 @@ list-style: none;
 .drp-rec li:last-child {
     border-right: 2px solid rgb(122, 181, 222);
 }
- .drp-rec{
-
-  /*opacity:1;*/
+.drp-rec{
+  opacity:0;
   top:-290px;
   left:-2px;
   background-color: white;
   position:absolute;
   box-sizing: border-box;
   width:80px;
-
 }
+
+.size-mn:hover >.drp-rec{
+  opacity:1;
+  top:-290px;
+  left:-2px;
+  background-color: white;
+  position:absolute;
+  box-sizing: border-box;
+  width:80px;
+}
+
+
 
 
 
