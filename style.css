@@ -120,22 +120,20 @@ section ul{
   text-align:center;
   list-style: none;
   background-color: rgb(255, 255, 255);
-  border-top: 2px solid rgb(122, 181, 222);
+  /*border-top: 2px solid rgb(122, 181, 222);*/
   border-right: 2px solid rgb(122, 181, 222);
   border-left: 2px solid rgb(122, 181, 222);
-
-
 }
 
 .drp-rec{
   opacity:0;
-  top:-186px;
+  top:-162px;
   left:-6px;
   background-color: rgb(255, 255, 255);
   position:absolute;
   box-sizing: border-box;
   width:90px;
-  transition:opacity 1.5s linear, position 1.5s linear;
+  transition:opacity .5s linear;
 }
 
 .size-mn{
@@ -144,7 +142,7 @@ section ul{
 
 .size-mn:hover > .drp-rec{
   opacity:1;
-  top:-170px;
+  top:-162px;
   left:-6px;
   background-color: white;
   position:absolute;
