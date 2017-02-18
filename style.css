@@ -66,7 +66,7 @@ section ul{
   padding:0;
 }
 
-.ls-primary li {
+.ls-primary >.prim-ls {
   border-top: 2px solid rgb(122, 181, 222);
   border-right: 2px solid rgb(122, 181, 222);
   border-bottom: 2px solid rgb(122, 181, 222);
@@ -90,6 +90,8 @@ section ul{
   color: rgb(255,255,255);
 }
 
+
+
 .ls-primary > .prim-ls:last-child {
   border-right: none;
 }
@@ -109,7 +111,6 @@ section ul{
 /******DROPDOWNS************************************************/
 
 
-
 .drp-rec > .size{
   font-size: 1em;
   border:none;
@@ -119,6 +120,7 @@ section ul{
   box-sizing: border-box;
   text-align:center;
   list-style: none;
+  color: rgb(122, 181, 222);
   background-color: rgb(255, 255, 255);
   /*border-top: 2px solid rgb(122, 181, 222);*/
   border-right: 2px solid rgb(122, 181, 222);
@@ -148,8 +150,53 @@ section ul{
   position:absolute;
   box-sizing: border-box;
   width:90px;
-  opacity:1;
+
 }
+
+
+/*square box for ul. maybe use fa class to shape it*/
+
+.inr-sqr{
+  position:relative:
+
+}
+
+
+
+/*class to single out the ls item containe the four colored square elements*/
+.drp-sqr {
+  opacity:0;
+  transition:opacity .5s linear;
+  position: absolute;
+  top:329px;
+  left:279px;
+  box-sizing: border-box;
+  list-style: none;
+  width:90px;
+  height:90px;
+  border-top: 2px solid rgb(122, 181, 222);
+  border-right: 2px solid rgb(122, 181, 222);
+  border-left: 2px solid rgb(122, 181, 222);
+  background-color: rgb(255, 255, 255);
+}
+.clr-sqr:hover >.drp-sqr {
+  opacity:1;
+  position: absolute;
+  top:329px;
+  left:279px;
+  box-sizing: border-box;
+  list-style: none;
+  width:90px;
+  height:90px;
+  border-top: 2px solid rgb(122, 181, 222);
+  border-right: 2px solid rgb(122, 181, 222);
+  border-left: 2px solid rgb(122, 181, 222);
+  background-color: rgb(255, 255, 255);
+}
+
+
+/*<i class="fa fa-square-o" aria-hidden="true"></i>  this is the square icon*/
+
 
 
 
