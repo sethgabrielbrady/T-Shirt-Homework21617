@@ -198,7 +198,25 @@ section ul{
 /*<i class="fa fa-square-o" aria-hidden="true"></i>  this is the square icon*/
 
 
-
+.fa-square{
+float:left;
+width:50%;
+box-sizing: border-box;
+padding:2px 2px 2px 2px;
+font-size:2em;
+}
+.sqr-blue{
+color: rgb(122, 181, 222);
+}
+ .sqr-pink{
+color: rgb(212, 130, 170);
+}
+ .sqr-yellow{
+color: rgb(218, 175, 124);
+}
+ .sqr-green{
+color: rgb(124, 175, 124);
+}
 
 
 
