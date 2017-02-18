@@ -114,7 +114,7 @@ section ul{
   font-size: 1em;
   border:none;
   margin:0;
-  padding:1.25em;
+  padding:.5em 1.25em;
   width:100%;
   box-sizing: border-box;
   text-align:center;
@@ -129,26 +129,27 @@ section ul{
 
 .drp-rec{
   opacity:0;
-  top:-290px;
-  left:-2px;
+  top:-186px;
+  left:-6px;
   background-color: rgb(255, 255, 255);
   position:absolute;
   box-sizing: border-box;
-  width:80px;
-
+  width:90px;
+  transition:opacity 1.5s linear, position 1.5s linear;
 }
 
 .size-mn{
-  transition: hover 8.5s linear;
-}
+  }
+
+
 .size-mn:hover > .drp-rec{
   opacity:1;
-  top:-290px;
-  left:-2px;
+  top:-170px;
+  left:-6px;
   background-color: white;
   position:absolute;
   box-sizing: border-box;
-  width:82px;
+  width:90px;
   opacity:1;
 }
 
