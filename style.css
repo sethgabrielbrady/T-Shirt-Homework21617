@@ -268,6 +268,31 @@ section ul{
   left:37px;
 }
 
+.drp-sqr > .out-tri{
+  box-sizing: border-box;
+  position: relative;
+  width:16px;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 8px 0 8px;
+  border-color: rgb(122, 181, 222) transparent transparent transparent;
+  top:86px;
+  left:35px;
+  margin:0;
+  list-style: none;
+}
+.drp-sqr >.inr-tri {
+  position:relative;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 6px 0 6px;
+  border-color: rgb(255, 255, 255) transparent transparent transparent;
+  list-style: none;
+  top:76px;
+  left:37px;
+}
+
 /******Footer************************************************/
 
 footer {
