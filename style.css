@@ -102,11 +102,60 @@ section ul{
  background-color: rgb(122, 181, 222);
 }
 
-.inr-sqr:hover{
- padding:2px 3px 2px 20px;
+.sqr-blue-mn .inr-sqr{
+ /*padding:2px 3px 2px 20px;*/
+ border: 2px solid rgb(122, 181, 222);
+ background-color: rgb(122, 181, 222);
+}
+ .sqr-pink-mn .inr-sqr{
+ /*padding:2px 3px 2px 20px;*/
+ border: 2px solid rgb(212, 130, 170);
+ background-color: rgb(212, 130, 170);
+}
+.sqr-yellow-mn .inr-sqr{
+/*padding:2px 3px 2px 20px;*/
+border: 2px solid rgb(218, 175, 124);
+background-color: rgb(218, 175, 124);
+}
+
+.sqr-blue-mn .inr-sqr:hover{
+ /*padding:2px 3px 2px 20px;*/
  border:2px solid rgb(255, 255, 255);
  background-color: rgb(122, 181, 222);
 }
+ .sqr-pink-mn .inr-sqr:hover{
+ /*padding:2px 3px 2px 20px;*/
+ border:2px solid rgb(255, 255, 255);
+ background-color: rgb(122, 181, 222);
+}
+.sqr-yellow-mn .inr-sqr:hover{
+ /*padding:2px 3px 2px 20px;*/
+ border:2px solid rgb(255, 255, 255);
+ background-color: rgb(122, 181, 222);
+}
+
+.fa-square{
+float:left;
+width:50%;
+box-sizing: border-box;
+padding:2px 2px 2px 2px;
+font-size:2em;
+}
+.sqr-blue{
+color: rgb(122, 181, 222);
+}
+ .sqr-pink{
+color: rgb(212, 130, 170);
+}
+ .sqr-yellow{
+color: rgb(218, 175, 124);
+}
+ .sqr-green{
+color: rgb(124, 175, 124);
+}
+
+
+
 
 /******DROPDOWNS************************************************/
 
@@ -192,27 +241,6 @@ section ul{
 
 
 
-
-
-.fa-square{
-float:left;
-width:50%;
-box-sizing: border-box;
-padding:2px 2px 2px 2px;
-font-size:2em;
-}
-.sqr-blue{
-color: rgb(122, 181, 222);
-}
- .sqr-pink{
-color: rgb(212, 130, 170);
-}
- .sqr-yellow{
-color: rgb(218, 175, 124);
-}
- .sqr-green{
-color: rgb(124, 175, 124);
-}
 
 
 
