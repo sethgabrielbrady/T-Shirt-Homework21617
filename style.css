@@ -171,36 +171,54 @@ color: rgb(124, 175, 124);
   list-style: none;
   color: rgb(122, 181, 222);
   background-color: rgb(255, 255, 255);
-  /*border-top: 2px solid rgb(122, 181, 222);*/
-  border-right: 2px solid rgb(122, 181, 222);
-  border-left: 2px solid rgb(122, 181, 222);
+
 
 }
 
 .drp-rec{
   opacity:0;
-  top:-178px;
+  top:-164px;
   left:-6px;
   background-color: rgb(255, 255, 255);
   position:absolute;
   box-sizing: border-box;
   width:90px;
   transition:opacity .5s linear, top .5s linear;
+  border-top: 2px solid rgb(122, 181, 222);
+  border-right: 2px solid rgb(122, 181, 222);
+  border-left: 2px solid rgb(122, 181, 222);
+  border-bottom: 2px solid rgb(122, 181, 222);
 
 }
 
-.size-mn{
-  }
+.drp-rec .sml-sel {
+font-size: .7em
+}
+.drp-rec .med-sel {
+font-size: .8em
+}
+
+.drp-rec .lrg-sel {
+ font-size: .9em
+}
+
+.drp-rec .xlg-sel {
+ font-size: 1em;
+}
 
 
 .size-mn:hover > .drp-rec{
   opacity:1;
-  top:-162px;
+  top:-140px;
   left:-6px;
   background-color: white;
   position:absolute;
   box-sizing: border-box;
   width:90px;
+  border-top: 2px solid rgb(122, 181, 222);
+  border-right: 2px solid rgb(122, 181, 222);
+  border-left: 2px solid rgb(122, 181, 222);
+  border-bottom: 2px solid rgb(122, 181, 222);
 
 }
 
@@ -231,7 +249,7 @@ color: rgb(124, 175, 124);
 .clr-sqr:hover > .drp-sqr {
   opacity:1;
   position: relative;
-  top:-137px;
+  top:-135px;
   left:-30px;
   box-sizing: border-box;
   list-style: none;
