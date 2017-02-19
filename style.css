@@ -86,39 +86,35 @@ section ul{
 
 /********************* sub list color square**********************************/
 
-.inr-sqr{
+.inr-sqr-lft{
    padding:2px 3px 2px 20px;
    border: 2px solid rgb(122, 181, 222);
    background-color: rgb(122, 181, 222);
 }
-
-.sqr-blue-mn .inr-sqr{
-   border: 2px solid rgb(122, 181, 222);
-   background-color: rgb(122, 181, 222);
-}
- .sqr-pink-mn .inr-sqr{
+.inr-sqr-mid{
+   padding:2px 3px 2px 20px;
    border: 2px solid rgb(212, 130, 170);
    background-color: rgb(212, 130, 170);
 }
-
-.sqr-yellow-mn .inr-sqr{
-  border: 2px solid rgb(218, 175, 124);
-  background-color: rgb(218, 175, 124);
+.inr-sqr-rgt{
+   padding:2px 3px 2px 20px;
+   border: 2px solid rgb(218, 175, 124);
+   background-color: rgb(218, 175, 124);
 }
 
-.sqr-blue-mn .inr-sqr:hover{
+
+.clr-sqr:hover  .inr-sqr-lft{
    border:2px solid rgb(255, 255, 255);
    background-color: rgb(122, 181, 222);
 }
 
- .sqr-pink-mn .inr-sqr:hover{
+.clr-sqr:hover .inr-sqr-mid{
    border:2px solid rgb(255, 255, 255);
-   background-color: rgb(122, 181, 222);
+   background-color: rgb(212, 130, 170);
 }
-
-.sqr-yellow-mn .inr-sqr:hover{
+.clr-sqr:hover .inr-sqr-rgt{
    border:2px solid rgb(255, 255, 255);
-   background-color: rgb(122, 181, 222);
+   background-color: rgb(218, 175, 124);
 }
 
 .fa-square{
