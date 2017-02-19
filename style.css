@@ -9,16 +9,15 @@ body {
 }
 
 
-/*****************************Section*******************/
+/*****************************MAIN AND SECTION*******************/
  main {
    width:409px;
    color: rgb(122, 181, 222);
    float:left;
-   margin:40px;:
+   margin:30px;:
 
  }
 section{
-  /*width: auto;*/
   border-top: 2px solid rgb(122, 181, 222);
   border-right: 2px solid rgb(122, 181, 222);
   border-left: 2px solid rgb(122, 181, 222);
@@ -28,50 +27,36 @@ section{
 section img{
   float:left;
   padding:15px 0 15px 15px;
-  /*text-align: center;*/
+
 }
 
- .fa-repeat {
+section ul{
+  padding:0;
+}
+
+
+
+/********************* section sub list 1**********************************/
+.fa-repeat {
   border-left:2px solid rgb(122, 181, 222);
   border-bottom: 2px solid rgb(122, 181, 222);
   padding:.25em;
-  /*box-sizing: border-box;*/
   position:relative;
   left:2px;
-
 }
 
-
- .fa-repeat:hover {
+.fa-repeat:hover {
   background-color:rgb(122, 181, 222);
   color: rgb(255, 255, 255);
   padding:.25em;
-  /*box-sizing: border-box;*/
   position:relative;
   left:2px;
-
 }
-
-
- /*.prim-ls:hover{
-  border-left:2px solid rgb(122, 181, 222);
-  border-bottom: 2px solid rgb(122, 181, 222);
-  background-color:rgb(122, 181, 222);
-  color: rgb(255, 255, 255);
-  padding:25px;
-}*/
 
 .fa {
-  /*display:inline;*/
   float:left;
   font-size:1.25em;
   font-weight: bold;
-}
-section ul{
-  /*margin:0;*/
-  /*clear:both;*/
-  /*width:100%;*/
-  padding:0;
 }
 
 .ls-primary >.prim-ls {
@@ -79,86 +64,81 @@ section ul{
   border-right: 2px solid rgb(122, 181, 222);
   border-bottom: 2px solid rgb(122, 181, 222);
   padding:1.25em;
-  /*margin:0;*/
   width:20%;
   box-sizing: border-box;
   text-align:center;
   list-style: none;
-  /*font-weight: bold;*/
-  /*color: rgb(122, 181, 222);*/
 }
+
 .ls-primary{
   margin:0;
 }
-
 
 .ls-primary > .prim-ls:hover{
   background-color: rgb(122, 181, 222);
   color: rgb(255,255,255);
 }
 
-
-
 .ls-primary > .prim-ls:last-child {
   border-right: none;
 }
 
+
+/********************* sub list color square**********************************/
+
 .inr-sqr{
- padding:2px 3px 2px 20px;
- border: 2px solid rgb(122, 181, 222);
- background-color: rgb(122, 181, 222);
+   padding:2px 3px 2px 20px;
+   border: 2px solid rgb(122, 181, 222);
+   background-color: rgb(122, 181, 222);
 }
 
 .sqr-blue-mn .inr-sqr{
- /*padding:2px 3px 2px 20px;*/
- border: 2px solid rgb(122, 181, 222);
- background-color: rgb(122, 181, 222);
+   border: 2px solid rgb(122, 181, 222);
+   background-color: rgb(122, 181, 222);
 }
  .sqr-pink-mn .inr-sqr{
- /*padding:2px 3px 2px 20px;*/
- border: 2px solid rgb(212, 130, 170);
- background-color: rgb(212, 130, 170);
+   border: 2px solid rgb(212, 130, 170);
+   background-color: rgb(212, 130, 170);
 }
+
 .sqr-yellow-mn .inr-sqr{
-/*padding:2px 3px 2px 20px;*/
-border: 2px solid rgb(218, 175, 124);
-background-color: rgb(218, 175, 124);
+  border: 2px solid rgb(218, 175, 124);
+  background-color: rgb(218, 175, 124);
 }
 
 .sqr-blue-mn .inr-sqr:hover{
- /*padding:2px 3px 2px 20px;*/
- border:2px solid rgb(255, 255, 255);
- background-color: rgb(122, 181, 222);
+   border:2px solid rgb(255, 255, 255);
+   background-color: rgb(122, 181, 222);
 }
+
  .sqr-pink-mn .inr-sqr:hover{
- /*padding:2px 3px 2px 20px;*/
- border:2px solid rgb(255, 255, 255);
- background-color: rgb(122, 181, 222);
+   border:2px solid rgb(255, 255, 255);
+   background-color: rgb(122, 181, 222);
 }
+
 .sqr-yellow-mn .inr-sqr:hover{
- /*padding:2px 3px 2px 20px;*/
- border:2px solid rgb(255, 255, 255);
- background-color: rgb(122, 181, 222);
+   border:2px solid rgb(255, 255, 255);
+   background-color: rgb(122, 181, 222);
 }
 
 .fa-square{
-float:left;
-width:50%;
-box-sizing: border-box;
-padding:2px 2px 2px 2px;
-font-size:2em;
+  float:left;
+  width:50%;
+  box-sizing: border-box;
+  padding:2px 2px 2px 2px;
+  font-size:2em;
 }
 .sqr-blue{
-color: rgb(122, 181, 222);
+  color: rgb(122, 181, 222);
 }
  .sqr-pink{
-color: rgb(212, 130, 170);
+   color: rgb(212, 130, 170);
 }
  .sqr-yellow{
-color: rgb(218, 175, 124);
+   color: rgb(218, 175, 124);
 }
  .sqr-green{
-color: rgb(124, 175, 124);
+   color: rgb(124, 175, 124);
 }
 
 
@@ -170,8 +150,8 @@ color: rgb(124, 175, 124);
   font-family: 'Roboto';
   box-sizing: border-box;
   height:74px;
-  /*position:relative;*/
 }
+
 .drp-rec > .size{
   font-size: 1em;
   border:none;
@@ -183,73 +163,52 @@ color: rgb(124, 175, 124);
   list-style: none;
   color: rgb(122, 181, 222);
   background-color: rgb(255, 255, 255);
-
-
 }
 
 .drp-rec{
   height:142px;
   opacity:0;
-  /*top:-164px;*/
   top:-204px;
   left:-31px;
-  /*background-color: rgb(255, 255, 255);*/
-  /*position:absolute;*/
   position:relative;
   box-sizing: border-box;
   width:90px;
   transition:opacity .5s linear, top .5s linear;
   border: 2px solid rgb(122, 181, 222);
-  /*border-top: 2px solid rgb(122, 181, 222);*/
-  /*border-right: 2px solid rgb(122, 181, 222);*/
-  /*border-left: 2px solid rgb(122, 181, 222);*/
-  /*border-bottom: 2px solid rgb(122, 181, 222);*/
 }
 
 .size-mn:hover > .drp-rec{
   opacity:1;
-  /*top:-140px;*/
   top:-188px;
   left:-31px;
   background-color: white;
-  /*position:absolute;*/
   position:relative;
   box-sizing: border-box;
   width:90px;
   border: 2px solid rgb(122, 181, 222);
-  /*border-top: 2px solid rgb(122, 181, 222);*/
-  /*border-right: 2px solid rgb(122, 181, 222);*/
-  /*border-left: 2px solid rgb(122, 181, 222);*/
-  /*border-bottom: 2px solid rgb(122, 181, 222);*/
-
 }
 
 .drp-rec .sml-sel {
-font-size: .7em
+  font-size: .7em
 }
+
 .drp-rec .med-sel {
-font-size: .8em
+  font-size: .8em
 }
 
 .drp-rec .lrg-sel {
- font-size: .9em
+  font-size: .9em
 }
 
 .drp-rec .xlg-sel {
- font-size: 1em;
+  font-size: 1em;
 }
-
-
-
-
-
 
 .clr-sqr {
   height:74px;
 }
 
-
- .drp-sqr {
+.drp-sqr {
   opacity:0;
   transition:opacity .5s linear, top .5s linear;
   position: relative;
@@ -266,6 +225,7 @@ font-size: .8em
   border-left: 2px solid rgb(122, 181, 222);
   background-color: rgb(255, 255, 255);
 }
+
 .clr-sqr:hover > .drp-sqr {
   opacity:1;
   position: relative;
@@ -287,30 +247,29 @@ font-size: .8em
 
 
 .out-tri{
-
-box-sizing: border-box;;
-opacity:1;
-position: relative;
-width:16px;
-height: 0;
-border-style: solid;
-border-width: 10px 8px 0 8px;
-border-color: red transparent transparent transparent;
-top:0;
-left:0;
+  box-sizing: border-box;;
+  opacity:1;
+  position: relative;
+  width:16px;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 8px 0 8px;
+  border-color: red transparent transparent transparent;
+  top:0;
+  left:0;
 }
 .inr-tri {
-position:relative;
-width: 0;
-height: 0;
-border-style: solid;
-border-width: 8px 6px 0 6px;
-border-color: #ffffff transparent transparent transparent;
-/*top:-10px;/
-/*left:2px;*/
+  position:relative;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 6px 0 6px;
+  border-color: #ffffff transparent transparent transparent;
+  /*top:-10px;/
+  /*left:2px;*/
 
-top:0;
-left:0;
+  top:0;
+  left:0;
 }
 
 /******Footer************************************************/
@@ -321,25 +280,22 @@ footer {
 }
 
 .btm-lst{
-    margin:0;
-    width:50%;
-    float:left;
-    margin-top:1.10em;
-    display:inline;
-    box-sizing: border-box;;
+  margin:0;
+  width:50%;
+  float:left;
+  margin-top:1.10em;
+  display:inline;
+  box-sizing: border-box;;
 }
 
 p.btm-lst{
-text-align:left;
-/*padding-left: .25em;*/
-font-size:1.60em;
-padding-left: .25em;
-
-
+  text-align:left;
+  font-size:1.60em;
+  padding-left: .25em;
 }
 
 figure.btm-lst{
-text-align:right;
-padding-right: .75em;
-font-size:1.55em;
+  text-align:right;
+  padding-right: .75em;
+  font-size:1.55em;
 }
