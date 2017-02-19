@@ -174,17 +174,19 @@ color: rgb(124, 175, 124);
   /*border-top: 2px solid rgb(122, 181, 222);*/
   border-right: 2px solid rgb(122, 181, 222);
   border-left: 2px solid rgb(122, 181, 222);
+
 }
 
 .drp-rec{
   opacity:0;
-  top:-162px;
+  top:-178px;
   left:-6px;
   background-color: rgb(255, 255, 255);
   position:absolute;
   box-sizing: border-box;
   width:90px;
-  transition:opacity .5s linear;
+  transition:opacity .5s linear, top .5s linear;
+
 }
 
 .size-mn{
@@ -211,14 +213,16 @@ color: rgb(124, 175, 124);
 
  .drp-sqr {
   opacity:0;
-  transition:opacity .5s linear;
+  transition:opacity .5s linear, top .5s linear;
   position: relative;
-  top:-137px;
+  top:-153px;
   left:-30px;
   box-sizing: border-box;
   list-style: none;
   width:90px;
   height:90px;
+  border-bottom: 2px solid rgb(122, 181, 222);
+
   border-top: 2px solid rgb(122, 181, 222);
   border-right: 2px solid rgb(122, 181, 222);
   border-left: 2px solid rgb(122, 181, 222);
@@ -236,6 +240,7 @@ color: rgb(124, 175, 124);
   border-top: 2px solid rgb(122, 181, 222);
   border-right: 2px solid rgb(122, 181, 222);
   border-left: 2px solid rgb(122, 181, 222);
+  border-bottom: 2px solid rgb(122, 181, 222);
   background-color: rgb(255, 255, 255);
 }
 
