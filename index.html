@@ -12,8 +12,8 @@
     <main class='left'>
     <section>
 
-      <img src='blue-front.png' alt="Alt text goes here">
-      <i class="fa fa-repeat" aria-hidden="true"></i>
+      <img src='blue-front.png' id ='left-image' alt="Alt text goes here">
+      <i class="fa fa-repeat" aria-hidden="true" onclick="picChange()"></i>
 
 
       <ul class="ls-primary">
@@ -28,7 +28,7 @@
             </ul>
         </li>
         <li class='sqr-blue-mn prim-ls fa clr-sqr'>
-          <span class='inr-sqr '></span><!---this is my square inside -->
+          <span class='inr-sqr'></span><!---this is my square inside -->
             <ul class='drp-sqr'>
               <li class='clr-sqr-sub'>
                 <i class="fa fa-square sqr-blue" aria-hidden="true"></i>
@@ -61,7 +61,7 @@
         <li class='prim-ls fa fa-exchange' aria-hidden='true'></li>
         <li class='prim-ls fa fa-heart-o' aria-hidden='true'></li>
         <li class='prim-ls fa size-mn'>XL
-            <ul class='drp-rec'>
+            <ul class='drp-rec '>
               <li class="size fa fa-user-circle-o xlg-sel" aria-hidden="true"></li>
               <li class="size fa fa-user-circle-o lrg-sel" aria-hidden="true"></li>
               <li class="size fa fa-user-circle-o med-sel" aria-hidden="true"></li>
@@ -135,4 +135,29 @@
 
 
   </body>
+
+<script src='script.js'></script>
 </html>
+
+
+
+<!---------
+
+.out-tri{
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 10px 8px 0 8px;
+border-color: #007bff transparent transparent transparent;
+}
+.inr-tri {
+position:relative;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 8px 6px 0 6px;
+border-color: #ffffff transparent transparent transparent;
+top:-10px;
+left:2px;
+}
+--------------->
