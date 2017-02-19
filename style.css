@@ -179,7 +179,7 @@ section ul{
 
 .size-mn:hover > .drp-rec{
   opacity:1;
-  top:-188px;
+  top:-187px;
   left:-31px;
   background-color: white;
   position:relative;
@@ -235,10 +235,7 @@ section ul{
   list-style: none;
   width:90px;
   height:90px;
-  border-top: 2px solid rgb(122, 181, 222);
-  border-right: 2px solid rgb(122, 181, 222);
-  border-left: 2px solid rgb(122, 181, 222);
-  border-bottom: 2px solid rgb(122, 181, 222);
+  border: 2px solid rgb(122, 181, 222);
   background-color: rgb(255, 255, 255);
 }
 
@@ -246,30 +243,29 @@ section ul{
 /****************************TRIANGLE FOR BORDER**********/
 
 
-.out-tri{
-  box-sizing: border-box;;
-  opacity:1;
+.drp-rec > .out-tri{
+  box-sizing: border-box;
   position: relative;
   width:16px;
   height: 0;
   border-style: solid;
   border-width: 10px 8px 0 8px;
-  border-color: red transparent transparent transparent;
-  top:0;
-  left:0;
+  border-color: rgb(122, 181, 222) transparent transparent transparent;
+  top:138px;
+  left:35px;
+  margin:0;
+  list-style: none;
 }
-.inr-tri {
+.drp-rec >.inr-tri {
   position:relative;
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 8px 6px 0 6px;
-  border-color: #ffffff transparent transparent transparent;
-  /*top:-10px;/
-  /*left:2px;*/
-
-  top:0;
-  left:0;
+  border-color: rgb(255, 255, 255) transparent transparent transparent;
+  list-style: none;
+  top:128px;
+  left:37px;
 }
 
 /******Footer************************************************/
