@@ -14,13 +14,11 @@ body {
    width:409px;
    color: rgb(122, 181, 222);
    float:left;
-   margin:30px;:
-
- }
+   margin:30px;
+}
 section{
-  border-top: 2px solid rgb(122, 181, 222);
-  border-right: 2px solid rgb(122, 181, 222);
-  border-left: 2px solid rgb(122, 181, 222);
+  border: 2px solid rgb(122, 181, 222);
+  border-bottom: none;
   float:left;
 }
 
@@ -36,7 +34,6 @@ section ul{
 }
 
 
-/********************* image manipulation on click****************************/
 
 /********************* section sub list 1**********************************/
 .fa-repeat {
@@ -145,9 +142,9 @@ section ul{
 /******SIZE DROPDOWN************************************************/
 
 .ls-primary >.size-mn{
-  font-family: 'Roboto';
+  font-family: 'Roboto';/*removing this causes the text to revert browser default font*/
   box-sizing: border-box;
-  height:74px;
+  height:74px;/*removing this breaks the drop box- will need to fix*/
 }
 
 .drp-rec > .size{
@@ -220,14 +217,13 @@ section ul{
   width:90px;
   height:90px;
   border-bottom: 2px solid rgb(122, 181, 222);
-
   border-top: 2px solid rgb(122, 181, 222);
   border-right: 2px solid rgb(122, 181, 222);
   border-left: 2px solid rgb(122, 181, 222);
   background-color: rgb(255, 255, 255);
 }
 
-.clr-sqr:hover > .drp-sqr {
+.clr-sqr:hover  .drp-sqr {
   opacity:1;
   position: relative;
   top:-135px;
@@ -244,7 +240,7 @@ section ul{
 /****************************TRIANGLE FOR BORDER**********/
 
 
-.drp-rec > .out-tri{
+.drp-rec  .out-tri{
   box-sizing: border-box;
   position: relative;
   width:16px;
@@ -257,7 +253,7 @@ section ul{
   margin:0;
   list-style: none;
 }
-.drp-rec >.inr-tri {
+.drp-rec .inr-tri {
   position:relative;
   width: 0;
   height: 0;
@@ -269,7 +265,7 @@ section ul{
   left:37px;
 }
 
-.drp-sqr > .out-tri{
+.drp-sqr  .out-tri{
   box-sizing: border-box;
   position: relative;
   width:16px;
@@ -282,7 +278,7 @@ section ul{
   margin:0;
   list-style: none;
 }
-.drp-sqr >.inr-tri {
+.drp-sqr .inr-tri {
   position:relative;
   width: 0;
   height: 0;
