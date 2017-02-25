@@ -141,10 +141,11 @@ section ul{
 
 /******SIZE DROPDOWN************************************************/
 
-.ls-primary >.size-mn{
-  font-family: 'Roboto';/*removing this causes the text to revert browser default font*/
+.ls-primary > .size-mn{
+  /*removing this causes the text to revert browser default font*/
+  font-family: 'Roboto';
   box-sizing: border-box;
-  height:74px;/*removing this breaks the drop box- will need to fix*/
+  height:74px;/*removing this breaks the drop box- will need to fix*/*/
 }
 
 .drp-rec > .size{
@@ -165,14 +166,15 @@ section ul{
   opacity:0;
   top:-204px;
   left:-31px;
-  position:relative;
+  position:absolute;;
   box-sizing: border-box;
   width:90px;
   transition:opacity .5s linear, top .5s linear;
   border: 2px solid rgb(122, 181, 222);
+
 }
 
-.size-mn:hover > .drp-rec{
+.size-mn:hover >.drp-rec{
   opacity:1;
   top:-187px;
   left:-31px;
@@ -209,7 +211,7 @@ section ul{
 .drp-sqr {
   opacity:0;
   transition:opacity .5s linear, top .5s linear;
-  position: relative;
+  position: absolute;
   top:-153px;
   left:-31px;
   box-sizing: border-box;
