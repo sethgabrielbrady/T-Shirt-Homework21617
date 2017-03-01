@@ -59,9 +59,8 @@ section ul{
 }
 
 .ls-primary >.prim-ls {
-  border-top: 2px solid rgb(122, 181, 222);
-  border-right: 2px solid rgb(122, 181, 222);
-  border-bottom: 2px solid rgb(122, 181, 222);
+  border: 2px solid rgb(122, 181, 222);
+  border-left:none;
   padding:1.25em;
   width:20%;
   box-sizing: border-box;
@@ -141,11 +140,12 @@ section ul{
 
 /******SIZE DROPDOWN************************************************/
 
-.ls-primary > .size-mn{
+.ls-primary .size-mn{
   /*removing this causes the text to revert browser default font*/
   font-family: 'Roboto';
   box-sizing: border-box;
-  height:74px;/*removing this breaks the drop box- will need to fix*/*/
+  /*removing this breaks the drop box- will need to fix*/
+  height:74px;
 }
 
 .drp-rec > .size{
@@ -166,7 +166,7 @@ section ul{
   opacity:0;
   top:-204px;
   left:-31px;
-  position:absolute;;
+  position:absolute;
   box-sizing: border-box;
   width:90px;
   transition:opacity .5s linear, top .5s linear;
@@ -174,7 +174,7 @@ section ul{
 
 }
 
-.size-mn:hover >.drp-rec{
+.size-mn:hover > .drp-rec{
   opacity:1;
   top:-187px;
   left:-31px;
